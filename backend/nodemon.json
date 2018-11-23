@@ -1,0 +1,8 @@
+{
+  "verbose" : true,
+  "watch" :["**/*.ts"],
+  "ext" : "ts js json html ",
+  "ignore" : ["**/node_modules"],
+
+  "exec": "ts-node ./main.ts"
+}

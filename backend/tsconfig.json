@@ -1,0 +1,19 @@
+{
+  "compilerOptions":
+  {
+    "module":    "commonjs",
+    "target":    "es2016",
+    "allowJs":   true,
+    "noEmit":    true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": false,
+    "sourceMap": false
+  },
+
+  "exclude":
+  [
+    "node_modules"
+  ]
+}

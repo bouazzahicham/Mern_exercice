@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);
+body
+{
+    height: 100%;
+    margin-top: -10px;
+    background-color: rgba(193,173,165,0.05) ;
+    /*background-color: rgba(248,96,72,0.09);*/
+}
+
+.mainLayout
+{
+    display: block !important ;
+
+    position: relative ;
+    top: -2.5px ;
+    left: -2.5px;
+
+
+}
+.Sidebar
+{
+    width: 100px !important ;
+    position: fixed !important;
+    top: 1px !important;
+
+}
+#detectSidebar
+{
+    position: absolute ;
+    z-index: 103;
+    left: 0 ;
+    top:0 ;
+    bottom:0;
+    width: 2px;
+    /*border: 1px red solid ;*/
+
+}
+.signalStyle
+{
+    position: absolute ;
+    right: 8%;
+    /*margin-top: -10px;*/
+}
+
+.fixedBar
+{
+    display: block ;
+    margin-bottom: 45px;
+
+}

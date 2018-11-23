@@ -1,0 +1,42 @@
+{
+
+  "compilerOptions":
+  {
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "outDir": "./_compiled/",        // path to output directory
+    "sourceMap": false,          // allow sourcemap support
+    "strictNullChecks": true  ,   // enable strict null checks as a best practice
+    "module": "commonjs",            // specify module code generation
+    "jsx": "react",             // use typescript to transpile jsx to js
+    "target": "es2015",            // specify ECMAScript target version
+    "allowJs": true,             // allow a partial TypeScript and JavaScript codebase
+    "moduleResolution": "node",
+    "types": ["node"],
+    "allowSyntheticDefaultImports": false,
+    "removeComments": true
+
+  }
+
+//,
+//  "awesomeTypescriptLoaderOptions":
+//  {
+//    "useBabel": true,
+//    "babelOptions":
+//    {
+//      "babelrc": false, /* Important line */
+//      "presets": [
+//        ["@babel/preset-env", { "targets": "last 2 versions, ie 11", "modules": false }]
+//      ]
+//    },
+//    "babelCore": "@babel/core"// needed for Babel v7
+//  }
+
+,
+  "exclude":
+  [
+    "./node_modules/**/*"
+  ]
+
+
+}
